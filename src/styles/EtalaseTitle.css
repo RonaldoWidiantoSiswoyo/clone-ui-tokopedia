@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.content {
+  margin-top: -80px;
+  width: 250px;
+  height: 60px;
+  background-color: rgb(59, 114, 114);
+  padding-left: 10px;
+  border-radius: 7px;
+  margin-bottom: -180px;
+}
+.container .content .garis {
+  margin-top: 10px;
+  width: 40px;
+  height: 3px;
+  background-color: #fff;
+}
+.container .content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* .content .other {
+  margin-top: 20px;
+} */

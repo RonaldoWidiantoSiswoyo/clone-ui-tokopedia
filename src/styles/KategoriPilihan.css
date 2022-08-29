@@ -1,0 +1,179 @@
+.row {
+  display: flex;
+}
+.carousel2 {
+  top: 10px;
+}
+.kategori-pilihan {
+  position: relative;
+  top: 120px;
+  margin: 20px 32px;
+  box-shadow: rgba(43, 53, 59, 0.12) 0px 1px 6px 0;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  width: 90%;
+  margin: 20px auto;
+}
+.kategori-pilihan img {
+  width: 80%;
+}
+.kategori-pilihan h1 {
+  font-size: 20px;
+  font-weight: bold;
+  /* margin-bottom:-50px; */
+}
+.kategori-pilihan h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.kategori-pilihan h3 {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.card-category {
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+}
+/* =========================== */
+.topup {
+  margin: 5px 0px;
+  margin-top: 0px;
+}
+.topup span {
+  font-size: 16px;
+  color: #03ac0e;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.topup .row {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid #dfdfdf;
+  margin-top: 45px;
+  border-radius: 12px;
+}
+.row .row-child {
+  display: flex;
+  /* margin: 0; */
+  padding: 0px;
+}
+.lainnya {
+  border-bottom: 1px solid #dfdfdf;
+  margin-right: 0;
+  border-left: 1px solid #dfdfdf;
+}
+.topup-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #dfdfdf;
+  font-weight: bold;
+  padding: 0;
+}
+.lainnya:hover {
+  border-bottom: none;
+}
+.item-menu {
+  padding: 10px 0;
+  border-bottom: 2px solid transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-left: #dfdfdf;
+  padding: 0px 2px;
+  color: #a7a7a7;
+}
+.topup-item:nth-last-child() {
+  width: 50px;
+}
+.item-menu:hover {
+  border-bottom: 2px solid #03ac0e;
+  color: #03ac0e;
+  cursor: pointer;
+}
+.item-menu img {
+  width: 30%;
+}
+.item-men .lainnya {
+  border-left: 1px solid #dfdfdf;
+  justify-content: end;
+}
+.topup-right {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 15px;
+}
+.form-row {
+  margin: 0;
+  width: 100%;
+}
+.form-group {
+  width: 100%;
+  padding-right: 15px;
+  padding: 0px 10px;
+}
+.form-group label {
+  font-size: 12px;
+  padding: 10px 0;
+  font-weight: bold;
+  color: #a7a7a7;
+}
+.form-group input,
+.form-group select {
+  height: 35px;
+  font-size: 12px;
+}
+.topup-right .btn {
+  font-size: 12px;
+  padding: 8px 15px;
+  font-weight: bold;
+  border-radius: 7px;
+  background-color: #c6c6c6;
+  border: none;
+}
+.carousel-inner {
+  width: 90%;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+/* =========================================================== */
+/* NGISORE KATEGORI PILIHAN */
+.menu-scroll {
+  overflow: hidden;
+  overflow-x: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  margin-top: 40px;
+  width: auto;
+}
+.menu-scroll::-webkit-scrollbar {
+  display: none;
+}
+.menu-scroll .item-scroll {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfdfdf;
+  padding: 1px 10px;
+  margin-right: 20px;
+  border-radius: 16px;
+  width: auto;
+  white-space: nowrap;
+}
+.item-scroll img {
+  width: 25px;
+  margin: 0 10px;
+  /* margin-left: 5px; */
+}
+.item-scroll span {
+  margin: 5px 10px 5px 0;
+  font-size: 14px;
+}

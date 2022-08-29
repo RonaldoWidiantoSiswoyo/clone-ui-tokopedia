@@ -1,0 +1,232 @@
+.pembungkus {
+  width: 100%;
+  padding: 0px 5%;
+  height: auto;
+  position: relative;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-1 {
+  width: 100%;
+}
+.pembungkus .tabel-footer .judul-tabel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  /* margin-left: -150px; */
+}
+
+.pembungkus .tabel-footer .judul-tabel p {
+  border-bottom: 1px solid #d5d5d5;
+  font-weight: bold;
+  font-size: 16px;
+  color: #7a7a7a;
+  padding: 15px 25px;
+}
+.pembungkus .tabel-footer .judul-tabel p:hover {
+  border-bottom: 2px solid #03ac0e;
+  color: #03ac0e;
+}
+.pembungkus .isi-tabel-footer tr {
+  width: 100%;
+}
+.pembungkus .isi-tabel-footer td {
+  border-bottom: 1px solid #f3f4f5;
+  width: 25%;
+  padding: 5px 90px 5px 0px;
+  margin-right: 5px;
+  font-size: 14px;
+  color: #a3a3a3;
+}
+.pembungkus .isi-tabel-footer td:hover {
+  color: #03ac0e;
+}
+/* ================= FOOTER 2 ======================= */
+.footer-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  border-bottom: 1px dashed #9e9e9e;
+  padding-bottom: 10px;
+}
+.footer-2 .footer2-left {
+  width: 50%;
+}
+.footer-2 .footer2-left h3 {
+  color: #ffa617;
+}
+.footer-2 .footer2-left .caption {
+  font-size: 14px;
+  padding: 25px 0px;
+}
+.footer-2 .footer2-left p span {
+  font-weight: bold;
+}
+.footer-2 .footer2-left .button {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.footer-2 .footer2-left button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  margin-right: 10px;
+  background-color: #03ac0e;
+  color: #fff;
+  font-weight: bold;
+}
+.footer-2 .footer2-left .button p {
+  color: #068d0f;
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 15px;
+  line-height: center;
+}
+.footer-2 .footer2-right {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.footer-2 .footer2-right img {
+  width: 450px;
+}
+/* ======= FOOTER 3 ========= */
+.footer-3 {
+  margin-top: 30px;
+}
+.footer-3 .footer3-first h3 {
+  color: rgba(82, 88, 103, 0.96);
+}
+.footer-3 .footer3-first p {
+  color: rgba(82, 88, 103, 0.68);
+  font-size: 0.86rem;
+  line-height: 1.6rem;
+}
+.footer-3 .footer3-first p span {
+  color: rgba(82, 88, 103, 0.96);
+  font-weight: bold;
+}
+.footer-3 .footer3-second {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 30px;
+  padding-bottom: 150px;
+  border-bottom: 1px solid #a3a3a3;
+}
+.footer-3 .footer3-second .format {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-3 .footer3-second .format img {
+  width: 130px;
+}
+.footer-3 .footer3-second .format h4 {
+  color: #03ac0e;
+}
+.footer-3 .footer3-second .format p {
+  color: rgba(82, 88, 103, 0.68);
+  font-size: 14px;
+  margin-top: 1rem;
+  width: 170px;
+}
+.footer-3 .footer3-second .transparan {
+  flex-grow: 1;
+}
+.footer-3 .footer3-second .aman {
+  flex-grow: 1;
+}
+.footer-3 .footer3-second .escrow {
+  flex-grow: 1;
+}
+
+/* ========== FOOTER 4 ============== */
+.footer-4 {
+  display: flex;
+  margin-bottom: 70px;
+}
+.footer-4 h4 {
+  margin-bottom: 10px;
+}
+.footer-4 p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: rgba(82, 88, 103, 0.96);
+}
+.footer-4 p:hover {
+  color: #03ac0e;
+}
+.footer-4 h4 {
+  color: #31353bf5;
+  padding: 10px 0px;
+  font-size: 1.3rem;
+}
+.footer-4 .footer4-first {
+  /* flex-grow: 1; */
+  width: 20%;
+}
+.footer-4 .footer4-second {
+  /* flex-grow: 1; */
+  width: 20%;
+}
+.footer-4 .footer4-second .image {
+  display: flex;
+}
+.footer-4 .footer4-second .image img {
+  width: 80px;
+  margin-right: 10px;
+}
+.footer-4 .footer4-third {
+  /* flex-grow: 1; */
+  width: 20%;
+}
+.footer-4 .footer4-third .image img {
+  margin-right: 10px;
+}
+.footer-4 .footer4-fourth {
+  /* flex-grow: 1; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-4 .footer4-fourth img {
+  width: 450px;
+}
+.footer-4 .footer4-fourth h6 {
+  padding: 20px;
+  color: #7a7a7a;
+  font-size: 14px;
+}
+.footer-4 .footer4-fourth .second-image img {
+  width: 125px;
+}
+
+.footer-4 .footer4-fourth .language {
+  background-color: none;
+}
+.footer-4 .footer4-fourth .language .active {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  background-color: #03ac0e;
+  color: #fff;
+  font-weight: bold;
+}
+.footer-4 .footer4-fourth .language .not-active {
+  border: none;
+  font-weight: bold;
+  color: #31353b70;
+  background-color: transparent;
+}

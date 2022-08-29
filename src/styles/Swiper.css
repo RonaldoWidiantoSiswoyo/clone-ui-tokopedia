@@ -1,0 +1,129 @@
+::ng-deep .swiper-button-prev:after,
+::ng-deep .swiper-button-next:after {
+  font-size: 10px;
+}
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 130px;
+  /* z-index: -99; */
+}
+.container .kotak {
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 320px;
+  height: 380px;
+  background-color: rgb(227, 102, 187);
+}
+.container .kotak img {
+  margin-left: 20px;
+  height: 370px;
+}
+
+.slidejs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  height: 350px;
+  width: 105%;
+  padding: 8px;
+  overflow: hidden;
+  background-color: var(--N0, #ffffff);
+  border-radius: 8px;
+
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  /* box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5); */
+}
+.image-title {
+  max-width: 100%;
+}
+.slidejs .image-title img {
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  margin: 0px auto;
+}
+.slidejs .user-title {
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: 10px;
+}
+.slidejs .user-price {
+  font-weight: bold;
+  margin-top: -10px;
+}
+.slidejs .discount-side {
+  display: flex;
+}
+.slidejs .discount {
+  font-size: 10px;
+  padding: 2px;
+  color: #f94d63;
+  font-weight: bold;
+  background-color: #ffdbe2;
+  border-radius: 5px;
+}
+.slidejs .totalDiscount {
+  font-size: 10px;
+  padding-left: 5px;
+  color: #6d7588;
+}
+.slidejs .from {
+  display: flex;
+  margin-top: -25px;
+  align-items: center;
+}
+.slidejs .from img {
+  width: 13px;
+  height: 13px;
+}
+.slidejs .from .user-kota {
+  color: #6d7588;
+  font-size: 12px;
+  padding: 15px 0px 0px 2px;
+}
+.slidejs .user-keterangan {
+  color: #6d7588;
+  margin-top: -10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.wrapper-etalase {
+  width: 100%;
+  margin: 20px 0px 20px 50px;
+  display: flex;
+  align-items: center;
+}
+.btn-prev,
+.btn-next {
+  position: absolute;
+  top: 45%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 30;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  background-color: #fff;
+}
+.btn-next {
+  right: 0;
+}
+.btn-prev img {
+  transform: rotate(90deg);
+}
+
+.btn-next img {
+  transform: rotate(-90deg);
+}
